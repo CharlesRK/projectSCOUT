@@ -8,4 +8,4 @@ To Run the ArUco codes
 > Install 3.9 python\
 > run pip3 install opencv-contrib-python==4.5.2.52\
 > pip3 install numpy\
-> pip3 install opencv-python matplotlib\
+> pip3 install opencv-python matplotlib
