@@ -1,0 +1,20 @@
+
+import olympe
+from olympe.messages.camera import take_photo, set_camera_mode
+
+def main():
+    # Connect to the drone
+    with olympe.Drone("10.202.0.1") as drone:
+        # Set the camera mode to photo
+        drone(set_camera_mode(cam_id=0, value="photo"))
+
+        # Wait for the drone to be ready
+        drone.smart_sleep(5)
+
+        # Take a photo
+        drone(take_photo(cam_id=0)).wait()
+
+        print("Photo taken successfully!")
+
+if __name__ == "__main__":
+    main()
