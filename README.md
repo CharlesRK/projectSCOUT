@@ -6,9 +6,9 @@ Documentation for parrot anafi drone (python control)
 
 To Run the ArUco codes
 > Install 3.9 python\
-> sudo apt-get update
-> sudo apt-get upgrade  #Optional
-> sudo apt install python3-pip
+> sudo apt-get update\
+> sudo apt-get upgrade  #Optional\
+> sudo apt install python3-pip\
 > run pip3 install opencv-contrib-python==4.5.2.52\
 > pip3 install numpy\
 > pip3 install opencv-python matplotlib
