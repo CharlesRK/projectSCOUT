@@ -12,7 +12,7 @@ To Run the ArUco codes
 
 
 Remove Python
-> sudo apt-get clean
-> sudo apt-get autoremove --purge
-> sudo apt-get remove python3.9
+> sudo apt-get clean\
+> sudo apt-get autoremove --purge\
+> sudo apt-get remove python3.9\
 > sudo apt-get autoremove
