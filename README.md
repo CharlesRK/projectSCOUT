@@ -9,3 +9,10 @@ To Run the ArUco codes
 > run pip3 install opencv-contrib-python==4.5.2.52\
 > pip3 install numpy\
 > pip3 install opencv-python matplotlib
+
+
+Remove Python
+> sudo apt-get clean
+> sudo apt-get autoremove --purge
+> sudo apt-get remove python3.9
+> sudo apt-get autoremove
