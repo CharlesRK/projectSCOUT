@@ -19,3 +19,7 @@ Remove Python
 > sudo apt-get autoremove --purge\
 > sudo apt-get remove python3.9\
 > sudo apt-get autoremove
+>
+Setup Drone
+>source ~/code/parrot-olympe/shell
+
