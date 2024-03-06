@@ -9,7 +9,7 @@ To Run the ArUco codes
 > sudo apt-get update\
 > sudo apt-get upgrade  #Optional\
 > sudo apt install python3-pip\
-> run pip3 install opencv-contrib-python==4.5.2.52\
+> pip3 install opencv-contrib-python==4.5.2.52\
 > pip3 install numpy\
 > pip3 install opencv-python matplotlib
 
