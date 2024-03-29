@@ -13,7 +13,7 @@ def main():
         #drone.smart_sleep(5)
 
         # Take off
-        drone(TakeOff()).wait()
+        #drone(TakeOff()).wait()
 
         # Start video streaming
         #drone(start_video_streaming(cam_id=0))
@@ -28,7 +28,7 @@ def main():
             #drone(stop_video_streaming(cam_id=0))
 
             # Land
-            drone(Landing()).wait()
+        drone(Landing()).wait()
 
 if __name__ == "__main__":
     main()
