@@ -146,10 +146,9 @@ class StreamingExample:
                         rmat = cv2.Rodrigues(rvec)
                         rmat2 = rmat[0][0] 
 
-                        rmat2x = np.rad2deg(rmat2[0])
 
               
-                    if (rmat2[0] > 0.97 and rmat2[0] < .99):
+                    if (rmat2[0] > 0.95 and rmat2[0] < .99):
                         #assert self.drone(moveBy(0,0,0,0) >> FlyingStateChanged(state="hovering", _timeout=5)).wait().success()
                         #self.droneSuccess()
                         #time.sleep(1)
@@ -171,7 +170,7 @@ class StreamingExample:
             
 
                    # print("rvec X:\n", rmat) # this is the rotation vector that can be turned into a rotational matrix using cv2.rodrigues
-                    print("rvec X:\n", rmat2x[0]) # this is the rotation vector that can be turned into a rotational matrix using cv2.rodrigues
+                    print("rvec X:\n", rmat2[0]) # this is the rotation vector that can be turned into a rotational matrix using cv2.rodrigues
                    # print("rvec Y:\n", rmat2[1]) # this is the rotation vector that can be turned into a rotational matrix using cv2.rodrigues
                    # print("rvec Y:\n", rmat2[2]) # this is the rotation vector that can be turned into a rotational matrix using cv2.rodrigues
 
